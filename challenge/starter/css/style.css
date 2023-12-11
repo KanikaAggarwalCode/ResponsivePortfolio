@@ -9,7 +9,78 @@ body {
   line-height: 1.5;
 }
 
-h1,
+header {
+  background-color: rgb(13, 13, 118);
+  padding: 15px;
+ display: flex;
+ justify-content: space-between;
+
+}
+
+header h1 {
+  background: rgb(120, 120, 233);
+  color:  rgb(13, 13, 118);
+  padding: 10px;
+}
+
+header nav ul{
+  color:rgb(120, 120, 233);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header nav ul a {
+  margin: 0 20px;
+  padding: 5px;
+ border-bottom: 3px solid;
+}
+
+.hero-banner {
+  background-image: url("../images/02-hero-bg.jpg");
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+ }
+
+ .hero-banner h2 {
+  background: rgb(120, 120, 233);
+  color:  rgb(13, 13, 118);
+  margin-bottom: 20px;
+  margin-right: 20px;}
+
+.page-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section-title{
+  font-size: 20px;
+  color:rgb(13, 13, 118);
+  padding: 10px;
+  }
+
+#aboutme-divider{
+  border-right: 3px solid rgb(13, 13, 118);
+  height: 150px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
 h2,
 h3,
 h4,
@@ -21,3 +92,4 @@ h6 {
 p {
   margin: 0;
 }
+
