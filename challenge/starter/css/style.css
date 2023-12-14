@@ -17,7 +17,7 @@ body {
 header {
   background-color: rgb(13, 13, 118);
   padding: 15px;
- display: flex;
+  display: flex;
  justify-content: space-between;
 
 }
@@ -39,7 +39,7 @@ header nav ul{
 header nav ul a {
   margin: 0 20px;
   padding: 5px;
- border-bottom: 3px solid;
+  border-bottom: 3px solid;
 }
 
 .hero-banner {
@@ -68,7 +68,8 @@ header nav ul a {
   font-size: 20px;
   color:rgb(13, 13, 118);
   padding: 10px;
-  }
+  
+}
 
 #section-divider{
   border-right: 3px solid rgb(13, 13, 118);
@@ -106,6 +107,27 @@ header nav ul a {
   margin: 0 20px;
 }
 
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
+img {
+  max-width: 220px;
+  max-height: 150px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
 
 
 
