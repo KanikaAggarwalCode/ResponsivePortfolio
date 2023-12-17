@@ -134,7 +134,7 @@ height: 850px;
 
 #contact{
   align-items:start;
-  justify-content:space-between;
+  justify-content:space-evenly;
   }
 
 #contact-title{
