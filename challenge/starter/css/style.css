@@ -76,7 +76,6 @@ header nav ul a {
 .vertical {
   border-left: 6px solid rgb(13, 13, 118);
   height: 190px;
-
   margin-top: 10px;
 }
 
@@ -101,7 +100,7 @@ flex-basis: 40px;
 
 #work-vertical{
 position: relative;
-height: 850px;
+height: 1000px;
 }
 
 .work-container {
@@ -121,11 +120,47 @@ height: 850px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 0px;
+  box-sizing: border-box; 
+  overflow: hidden; 
+  position: relative;
 }
 
-.work-image-two, .work-image-three, .work-image-four, .work-image-five {
+.work-image-two, .work-image-three {
   border: 7px solid rgb(182, 219, 238);
-  margin: 5px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  box-sizing: border-box; 
+  overflow: hidden; 
+  height: 248px ;
+  position: relative;
+}
+
+.work-image-four, .work-image-five {
+  border: 7px solid rgb(182, 219, 238);
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  box-sizing: border-box; 
+  overflow: hidden; 
+  height: 195px ;
+  position: relative;
+}
+.image-fill {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+}
+
+.text-block {
+  position: absolute;
+  bottom: 40px;
+  background-color: rgb(182, 219, 238);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Portfolio container ends*/
@@ -138,13 +173,27 @@ height: 850px;
   }
 
 #contact-title{
-  flex-basis: 200px;
+  flex-basis: 100px;
+  margin-right: -260px;
+}
+
+#contact-vertical{
+  padding-right: 56px;
+  height: 100px;
+}
+
+#contactme-details{
+  margin-top: 20px;
 }
 
 #contactme-details ul a {
+
+  justify-content: space-between ;
+  color: blue;
   border-bottom: 3px solid;
   padding: 5px;
   margin: 0 20px;
+
 }
 
 /* Contact details end*/
