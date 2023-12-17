@@ -193,11 +193,31 @@ height: 1000px;
   border-bottom: 3px solid;
   padding: 5px;
   margin: 0 20px;
-
 }
+
+.flex-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
 
 /* Contact details end*/
   /* Section Ends */
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightgray;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .flex-list {
+      flex-direction: column;
+    }
+  }
 
 h2,
 h3,
